@@ -1,0 +1,13 @@
+rmq:
+    queue:
+        omer: omer
+    ex:
+        omer: omer-ex
+    routing:
+        omer: routing-omer
+spring:
+    rabbitmq:
+        host: localhost
+        password: guest
+        port: 5672
+        username: guest
